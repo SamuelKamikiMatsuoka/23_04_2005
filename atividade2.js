@@ -20,7 +20,7 @@ while (tentativa > 0) { //enquanto a tentativa for maior que 5 o programa do loo
     }
 
 }
- if (!acerto){
-alert(`QUE PENA PUTZ GRILLA O NUMERO ERA:  ${numeroSecreto} `);
- 
- }
+if (!acerto) {
+    alert(`QUE PENA PUTZ GRILLA O NUMERO ERA:  ${numeroSecreto} `);
+
+}
