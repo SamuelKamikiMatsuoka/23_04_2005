@@ -1,0 +1,17 @@
+let numInicial = parseInt(prompt("digite o numero inicial "));
+let numeroFinal = parseInt(prompt("digite o numero final "));
+
+if (isNaN(numeroInicial) || isNaN(numeroFinal)) {
+  alert("numero digitado esta incorreto !");
+} else {
+  if (numeroFinal < numInicial) {
+    let temp;
+    numeroFinal = numInicial;
+    numInicial = temp;
+  }
+  for (let index = numInicial; index <= numeroFinal; index++) {
+    if (index % 2 == 0) {
+      console.log("numero ${index}");
+    }
+  }
+}
