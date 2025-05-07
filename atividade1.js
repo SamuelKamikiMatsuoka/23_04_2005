@@ -5,7 +5,7 @@ if (numeroInicial > numeroFinal) {
     while (numeroFinal <= numeroInicial) {
         {
             if (numeroFinal % 2 == 0) {
-                console.log(`o seu numero ${numeroFinal} é impar!`);
+                console.log(`o seu numero ${numeroFinal} é par!`);
             }
 
             numeroFinal++;
